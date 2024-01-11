@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* common */
+h1 {
+  margin: 0;
+  /* background: yellow; */
+}
+
+h2 {
+  margin: 16px 0;
+  /* text-align: center; */
+  font-size: 16px;
+}
+
+h3 {
+  margin: 8px 0 0 0;
+}
+
+body {
+  margin: 0;
+  /* background: skyblue; */
+  /* background-image: url(formation.jpg); */
+}
+
+img {
+  vertical-align: bottom;
+  border: 2px solid black;
+}
+
+.container {
+  max-width: 600px;
+  width: calc(100% - 64px / 2);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 32px 0;
+  /* padding-bottom: 32px; */
+}
+
+.message li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.message ul {
+  padding: 0;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+}
+
+.message a {
+  color: blue;
+}
+
+.message h2 {
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 8px;
+}
+
+.message p {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+}
+
+/* main */
+main span {
+  color: violet;
+}
+
+.introduction {
+  border-bottom: 1px solid lightgray;
+}
+.captain {
+  font-weight: bold;
+}
+.team-name {
+  text-align: center;
+}
+
+.composition {
+  border: 1px solid black;
+  border-radius: 8px;
+  /* background:orange; */
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  /* padding-bottom: 8px; */
+}
+
+.rules li {
+  list-style: none;
+}
+
+.rules ul {
+  padding: 0;
+}
+
+.rules h2 {
+  color: grey;
+}
+
+.rules span {
+  font-weight: bold;
+  color: red;
+}
+.group ul {
+  display: flex;
+  gap:8px;
+  justify-content: space-between;
+  padding: 0 8px;
+  /* justify-content:space-between; */
+}
+
+.composition {
+  background-image: url(futsal.webp);
+}
+
+.group li {
+  list-style: none;
+  /* background: skyblue;  */
+  font-size: 14px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding:64px 0;
+}
